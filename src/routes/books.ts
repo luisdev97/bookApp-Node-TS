@@ -5,6 +5,7 @@ const router: Router = Router();
 
 
 router.get('/', booksController.index);
-router.get('/books/add',booksController.renderFormBook);
+router.get('/add',booksController.renderFormBook);
+router.post('/add',booksController.saveBook);
 
 export default router;

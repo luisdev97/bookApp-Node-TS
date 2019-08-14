@@ -8,7 +8,7 @@ import BooksRoutes from './routes/books';
 
 //Initializations
 const app = express();
-
+import './database';
 
 //====================
 //Settings
